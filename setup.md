@@ -1,7 +1,9 @@
+##### install bash
 - `xcode-select --install`
 - `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 - `brew update`
 - `brew cask install iterm2`
+###### bash tips['http://clubmate.fi/upgrade-to-bash-4-in-mac-os-x/']
 ##### update iterm2 settings -> colors, keep directory open new shell, keyboard shortcuts
 - `brew install bash` _latest version of bash_
 ##### set brew bash as default shell
