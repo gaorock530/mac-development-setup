@@ -3,14 +3,14 @@
 - `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 - `brew update`
 - `brew cask install iterm2`
-###### [bash tips](http://clubmate.fi/upgrade-to-bash-4-in-mac-os-x/)
+##### [bash tips](http://clubmate.fi/upgrade-to-bash-4-in-mac-os-x/)
 - `bash --version`
-_Update homebrew packet database and install bash:_
+###### Update homebrew packet database and install bash:
 - `brew update && brew install bash`
 - `echo $BASH_VERSION`
-_Add the new shell to the list of allowed shells_
+###### Add the new shell to the list of allowed shells
 `sudo bash -c 'echo /usr/local/bin/bash >> /etc/shells'`
-_Change to the new shell_
+###### Change to the new shell
 `chsh -s /usr/local/bin/bash`
 ##### update iterm2 settings -> colors, keep directory open new shell, keyboard shortcuts
 - `brew install bash` _latest version of bash_
