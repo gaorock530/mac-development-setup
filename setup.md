@@ -5,15 +5,15 @@
 ##### update iterm2 settings -> colors, keep directory open new shell, keyboard shortcuts
 - `brew install bash` _latest version of bash_
 ##### set brew bash as default shell
-brew install fortune
-brew install cowsay 
-brew install git
-brew install vcprompt
+- `brew install fortune`
+- `brew install cowsay`
+- `brew install git`
+- `brew install vcprompt`
 ##### update bash_profile
-brew cask install spectacle
-brew cask install alfred
+- `brew cask install spectacle`
+- `brew cask install alfred`
 ##### set CMD+space to launch alfred
-brew cask install firefox
+- `brew cask install firefox`
 ##### install nvm/node
 - `curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash`
 - `nvm install stable`
